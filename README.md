@@ -4,6 +4,8 @@ This is a Discord bot being developed to promote the health of small groups of f
 
 I'm making this for my friend who keeps forgetting to take her daily medication.
 
+By sharing your goals with friends, you can keep yourself motivated!
+
 ---
 
 When a user inputs their desired time range, their goal, time zone, and a preferred emoji via `register` command, it is recorded on the board.
@@ -25,3 +27,10 @@ User can change the selected time zone using `settimezone` command. This will su
 ## Example of Execution
 
 To be modified later.
+
+---
+
+Paissa is the creature from Final Fantasy XIV that my friend, who inspired me to create this bot, loves the most.
+
+This project is not affiliated with Square Enix.
+
