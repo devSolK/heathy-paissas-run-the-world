@@ -8,10 +8,10 @@ export const data = new SlashCommandBuilder()
 export async function execute(itx, boardMsg, board) {
   const me = getUser(board, itx.user.id);
   if (!me) {
-    await itx.reply({ content: "등록된 정보가 없어요!", ephemeral: true });
+    await itx.reply({ content: "등록된 정보가 없어요!", flags: 64 });
     return;
   }
   deleteUser(board, itx.user.id);
   await writeBoard(boardMsg, board);
-  await itx.reply({ content: "등록을 해제했어요!", ephemeral: true });
+  await itx.reply({ content: "등록을 해제했어요!", flags: 64 });
 }
